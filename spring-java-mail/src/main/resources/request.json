@@ -1,0 +1,10 @@
+http://localhost:8080/mail/send - POST
+
+body-text
+{
+"id":null,
+"sender":"carlinstr@gmail.com",
+  "recipients":["carlinstr@gmail.com"],
+"subject":"Email via Spring ",
+"body":"Este email é um teste de envio utilizando Spring Boot e Java Mail."
+}
